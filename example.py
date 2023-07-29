@@ -17,6 +17,4 @@ new_rows = [('Cats', 'Cat City', '2088.10.10'),
 cursor.executemany("INSERT INTO events VALUES(?,?,?)", new_rows)
 connection.commit()
 
-cursor.execute("SELECT * FROM events WHERE band='Cats'")
-rows = cursor.fetchall()
-print(rows)
+
