@@ -3,6 +3,10 @@ import selectorlib
 import time
 from send_email import send_email
 
+"INSERT INTO events VALUES ('Tigers', 'London', '2022.02.02')"
+
+"SELECT * FROM events WHERE date='2022.02.02'"
+
 
 URL = "http://programmer100.pythonanywhere.com/tours/"
 HEADERS = HEADERS = {
